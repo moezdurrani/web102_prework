@@ -36,7 +36,7 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <img src='https://i.imgur.com/dK9QQuz.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-![Video Walkthrough](https://i.imgur.com/dK9QQuz.gif)
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/WhK1OfG"  ><a href="//imgur.com/a/WhK1OfG">Moez&#39;s CodePath prework</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 
