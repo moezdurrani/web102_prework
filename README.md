@@ -1,10 +1,10 @@
 # WEB102 Prework - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Moez Ullah Khan**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding Dashboard** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **9** hours spent in total
 
 ## Required Features
 
@@ -17,16 +17,22 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
+* [ ] A glowing border effect has been added to all buttons, highlighting the button currently being hovered over to improve visibility.
+
+* [ ] An interactive and dynamic glowing animation has been applied to the background of all buttons, enhancing the user experience with a visually appealing effect.
+
+A glowing effect has been added to all buttons using CSS animations and gradients, enhancing the user experience with dynamic, interactive buttons.
+
 * [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/qtyWVbH' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with LiceCap.  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -38,7 +44,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Moez | CodePath prework]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
