@@ -4,7 +4,7 @@ Submitted by: **Moez Ullah Khan**
 
 **Sea Monster Crowdfunding Dashboard** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **9** hours spent in total
+Time spent: **11** hours spent in total
 
 ## Required Features
 
@@ -21,15 +21,21 @@ The following **optional** features are implemented:
 
 * [ ] An interactive and dynamic glowing animation has been applied to the background of all buttons, enhancing the user experience with a visually appealing effect.
 
-A glowing effect has been added to all buttons using CSS animations and gradients, enhancing the user experience with dynamic, interactive buttons.
+* [ ] A hover-activated counter animation has been implemented for the statistics cards. When a user hovers over a statistics card, the displayed value animates from 0 to the actual statistic, providing an engaging and interactive experience.
+
 
 * [ ] List anything else that you can get done to improve the app functionality!
+
+* [ ] A feature that scales up the game card and blurs the background when a user clicks on a game card, allowing the user to focus on the game details without distractions.
+
+* [ ] A theme-switching feature that allows users to toggle between a light theme and a dark theme, making the website easier to view at night.
+
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/qtyWVbH' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/dK9QQuz' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LiceCap.  
@@ -41,6 +47,14 @@ GIF created with LiceCap.
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+* Most of the significant challenges I faced was while implementing the optional features. 
+
+* The hover-activated counter animations for the stats cards required precise timing and event handling. I consulted multiple online resources to ensure the animation triggered correctly without affecting other interactions.
+
+* Initially tried to implement the counter animation with CSS, but switched to JavaScript after realizing the limitations, with the help of online tutorials.
+
+
 
 ## License
 

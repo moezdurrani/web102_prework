@@ -64,6 +64,56 @@ addGamesToPage(GAMES_JSON);
  * Skills used: arrow functions, reduce, template literals
 */
 
+// Function to animate the counter values in the stats cards
+function animateValue(obj, start, end, duration) {
+    let startTimestamp = null;
+    const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        obj.innerHTML = Math.floor(progress * (end - start) + start).toLocaleString();
+        if (progress < 1) {
+            window.requestAnimationFrame(step);
+        }
+    };
+    window.requestAnimationFrame(step);
+}
+
+// Function to initialize and display the statistics at the top of the page
+function displayStatisticsOnHover() {
+    // Calculate the total contributions, amount raised, and number of games
+    const totalContributions = GAMES_JSON.reduce((total, game) => total + game.backers, 0);
+    const totalRaised = GAMES_JSON.reduce((total, game) => total + game.pledged, 0);
+    const totalGames = GAMES_JSON.length;
+
+    // Grab the elements for the stats cards
+    const contributionsCard = document.getElementById("num-contributions");
+    const raisedCard = document.getElementById("total-raised");
+    const gamesCard = document.getElementById("num-games");
+
+    // Add hover event listeners to each card to trigger the animation
+    document.querySelector(".stats-card:nth-child(1)").addEventListener('mouseover', () => {
+        animateValue(contributionsCard, 0, totalContributions, 1500);
+    });
+
+    document.querySelector(".stats-card:nth-child(2)").addEventListener('mouseover', () => {
+        animateValue(raisedCard, 0, totalRaised, 1500);
+    });
+
+    document.querySelector(".stats-card:nth-child(3)").addEventListener('mouseover', () => {
+        animateValue(gamesCard, 0, totalGames, 1000);
+    });
+}
+
+// Ensure the DOM is fully loaded before executing any DOM manipulation
+window.addEventListener('load', () => {
+    displayStatisticsOnHover();
+});
+
+
+
+
+
+
 // grab the contributions card element
 const contributionsCard = document.getElementById("num-contributions");
 
